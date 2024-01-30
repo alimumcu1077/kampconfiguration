@@ -2,7 +2,7 @@
 
 BASE_CONF_DIR=/opt/kamp
 
-cd /tmp && rm -rf kammconfiguration
+cd /tmp && rm -rf kampconfiguration
 
 cd /tmp && git clone  https://github.com/alimumcu1077/kampconfiguration.git \
 && cd /tmp/kampconfiguration  && git checkout main
