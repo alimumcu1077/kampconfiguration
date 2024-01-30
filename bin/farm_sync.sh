@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE_CONF_DIR=/opt/kamp
-
+cd /tmp && rm -f kammconfiguration
 cd /tmp && git clone  https://github.com/alimumcu1077/kampconfiguration.git \
 && cd /tmp/kampconfiguration  && git checkout main
 
